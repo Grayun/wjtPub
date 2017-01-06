@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{421054cc-f160-4f09-b60f-76fc82b21ea3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ba167ad0-0e1c-4f50-814d-e7e244f15757}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{31faf967-b74f-4080-b6c4-5c8605f1df09}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Jt3DGeUiDialog">
+      <UniqueIdentifier>{70bd6bea-68da-46b4-a699-987d807d2133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jt3DGeUiDialog">
+      <UniqueIdentifier>{41fd817c-30da-4eb9-8c58-4be0d8e12600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Button">
+      <UniqueIdentifier>{b9ac730a-b587-4ce0-ac26-7f099515e79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Button">
+      <UniqueIdentifier>{d50c7c3f-130e-40ec-a961-ab1e247667d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UltimateGrid">
+      <UniqueIdentifier>{2790cf10-6c1c-4580-aa39-6ede76e0240a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UltimateGrid">
+      <UniqueIdentifier>{b1d76df7-38bf-4e6a-ad6b-0e5bd191c3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SuperEdit">
+      <UniqueIdentifier>{17241bcb-b59e-43b4-a322-2cae901544b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SuperEdit">
+      <UniqueIdentifier>{bcbe1759-d71a-455d-954f-83e6fcd048fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MFCGlobleFun">
+      <UniqueIdentifier>{21215f60-e998-42ea-a214-930998355f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MFCGlobleFun">
+      <UniqueIdentifier>{df56db28-00f7-4588-bdea-3db6a5506281}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PropTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropTreeInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropTreeItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropTreeItemColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropTreeItemCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropTreeItemEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropTreeItemStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropTreeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jt3DGeUiDialog\Jt3DGeUiDialog.cpp">
+      <Filter>Source Files\Jt3DGeUiDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Button\BtnST.cpp">
+      <Filter>Source Files\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGCBType.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGCell.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGCelTyp.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGCnrBtn.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGCTarrw.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGCtrl.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGDLType.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGDrgDrp.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGDrwHnt.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGDtaSrc.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGEdit.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGEditBase.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\ugformat.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\uggdinfo.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGGrid.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGHint.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\ughscrol.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\ugLstBox.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGMEdit.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGMemMan.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGMultiS.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\ugprint.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\ugptrlst.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\ugsidehd.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGStrOp.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\ugtab.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGTopHdg.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\ugvscrol.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UGXPThemes.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="UltimateGrid\UgGridBase.cpp">
+      <Filter>Source Files\UltimateGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperEdit\SuperEdit.cpp">
+      <Filter>Source Files\SuperEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCGlobleFun\Jt3DGlobleFun.cpp">
+      <Filter>Source Files\MFCGlobleFun</Filter>
+    </ClCompile>
+    <ClCompile Include="Button\CJt3DUiPickButton.cpp">
+      <Filter>Source Files\Button</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PropTree.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Inc\PropTree\PropTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\PropTreeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\PropTreeItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\PropTreeItemColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\PropTreeItemCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\PropTreeItemEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\PropTreeItemStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\PropTreeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\Jt3DGeUiDialog\Jt3DGeUiDialog.h">
+      <Filter>Header Files\Jt3DGeUiDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\Button\BtnST.h">
+      <Filter>Header Files\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UG64Bit.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGCBType.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGCell.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugceltyp.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGCnrBtn.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGCTarrw.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGCtrl.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugdefine.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGDLType.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGDrgDrp.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGDrwHnt.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGDtaSrc.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGEdit.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGEditBase.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugformat.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\uggdinfo.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGGrid.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGHint.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ughscrol.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\uglstbox.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGMEdit.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGMemMan.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGMultiS.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugprint.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugptrlst.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugsidehd.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGStrOp.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugstruct.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugtab.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UGTopHdg.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugvscrol.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\ugxpthemes.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\UltimateGrid\UgGridBase.h">
+      <Filter>Header Files\UltimateGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\SuperEdit\SuperEdit.h">
+      <Filter>Header Files\SuperEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\MFCGlobleFun\Jt3DGlobleFun.h">
+      <Filter>Header Files\MFCGlobleFun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\MFCGlobleFun\MFCGlobleFunInc.h">
+      <Filter>Header Files\MFCGlobleFun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\PropTree\Button\CJt3DUiPickButton.h">
+      <Filter>Header Files\Button</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\fpoint.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PropTree.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\spliter.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
