@@ -20,3 +20,4 @@
 *.ipch
 **/packages/*
 !**/packages/repositories.config
+!.gitignore
