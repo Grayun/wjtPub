@@ -5,3 +5,4 @@
 4.lib lib
 5.bin dll
 3.WAFPubMFCdll MFCœ‡πÿ¿‡
+5
