@@ -1,0 +1,3 @@
+# 音乐类型   音乐索引名   音乐文件路径
+#music   bgm   res/tetris/bgm.mp3	咕~~(╯﹏╰)b...这个文件太大了...附件空间不够...
+sound   line  res/tetris/line.wav

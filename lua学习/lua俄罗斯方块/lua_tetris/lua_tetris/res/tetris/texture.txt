@@ -1,0 +1,8 @@
+# 纹理索引名   路径
+arrow   res/tetris/arrow.bmp   255   255   255
+font1   res/tetris/font1.bmp   0   0   0
+font2   res/tetris/font2.bmp   0   0   0
+welcome res/tetris/welcome.bmp   0   255   255
+normal  res/tetris/normal.bmp
+line    res/tetris/line.bmp
+over    res/tetris/over.bmp

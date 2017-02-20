@@ -1,0 +1,4 @@
+# 字体索引名   尺寸   风格   间距   粗细
+1   32   Arial Black   0   700
+2   32   Impact        0   700
+3   16   Arial Black   0   700
