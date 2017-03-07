@@ -18,6 +18,8 @@
 *.suo 
 *.suo
 *.ipch
+*.user
+*.ncb
 **/packages/*
 !**/packages/repositories.config
 !.gitignore
