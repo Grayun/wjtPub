@@ -93,7 +93,10 @@
 //#define _ARX_CUSTOM_DRAG_N_DROP_	//- Support for the ObjectARX Drag'n Drop API
 //#define _INC_LEAGACY_HEADERS_		//- Include legacy headers in this project
 #include "..\..\..\Inc\ArxInc/ArxHeaders.h"
+//#define _JT_UPDIR_
+//#include "..\..\..\Inc\ArxInc/JtGxArxInc.h"
 
+#include "E:\CvsWork\3rdparty\lua-5.2.3\luaInc.h"
 //-----------------------------------------------------------------------------
 #include "DocData.h" //- Your document specific data class holder
 

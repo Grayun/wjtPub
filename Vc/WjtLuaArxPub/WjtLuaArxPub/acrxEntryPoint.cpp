@@ -24,6 +24,7 @@
 //-----------------------------------------------------------------------------
 #include "StdAfx.h"
 #include "resource.h"
+#include "LuaPub.h"
 
 //-----------------------------------------------------------------------------
 #define szRDS _RXST("")
@@ -60,8 +61,29 @@ public:
 	virtual void RegisterServerComponents () {
 	}
 
+
+	// - WjtLuaArxPub.RunLua command (do not rename)
+	static void WjtLuaArxPubRunLua(void)
+	{
+		// Add your code for command WjtLuaArxPub.RunLua here
+		CAcModuleResourceOverride resource;
+		CFileDialog openDlg(TRUE, 
+			_T("*.*"), 
+			NULL, OFN_FILEMUSTEXIST | OFN_NOCHANGEDIR | OFN_HIDEREADONLY, 
+			_T("lua脚本(*.lua)|*.lua|全部类型(*.*)|*.*||"));
+		if (IDOK != openDlg.DoModal())
+		{
+			return;
+		}
+
+		CString str = openDlg.GetPathName();
+
+		CLuaPub::DoLua(str);
+	}
 } ;
 
 //-----------------------------------------------------------------------------
 IMPLEMENT_ARX_ENTRYPOINT(CWjtLuaArxPubApp)
+// ACED_ARXCOMMAND_ENTRY_AUTO(CWjtLuaArxPubApp, WjtLuaArxPub, _DebugDesTable, JtNodeDetailAutoDrawing_DebugDesTable, ACRX_CMD_MODAL, NULL)
 
+ACED_ARXCOMMAND_ENTRY_AUTO(CWjtLuaArxPubApp, WjtLuaArxPub, RunLua, WjtLuaArxPubRunLua, ACRX_CMD_MODAL, NULL)
