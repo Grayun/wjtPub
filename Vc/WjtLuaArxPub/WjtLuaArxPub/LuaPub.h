@@ -113,6 +113,39 @@ private:
 	// --------------------------------------------------------------------------------
 	static void LoadArxLua();
 	static void PrintArx(const char*);
+	static void PrintArxLn(const char*);
+
+private:
+	// --------------------------------------------------------------------------------
+	// Summary: 
+	//   注册ARX常用类
+	// --------------------------------------------------------------------------------
+	static void Register_Point();
+	static void Register_Vecter();
+	static void Register_Mat();
+	static void Register_ObjId();
+
+	// --------------------------------------------------------------------------------
+	// Summary: 
+	//   注册arx简单实体类
+	// --------------------------------------------------------------------------------
+	static void Register_Ent_Text();
+	static void Register_Ent_Line();
+	static void Register_Ent_Circle();
+	static void Register_Ent_PolyLine();
+
+	// --------------------------------------------------------------------------------
+	// Summary: 
+	//   注册arx 实体加入数据库相关接口 不处理指针，传入对象，内部copy，lua处理指针麻烦
+	// --------------------------------------------------------------------------------
+	static void AppEnt(const AcDbEntity* pEntity);
+
+	// --------------------------------------------------------------------------------
+	// Summary: 
+	//   实体选择相关
+	// --------------------------------------------------------------------------------
+	static void Registe_EntSelect();
+
 
 private:
 	lua_State_BasePointer<lua_State> L;
