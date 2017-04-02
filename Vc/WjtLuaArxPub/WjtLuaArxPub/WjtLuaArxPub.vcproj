@@ -483,7 +483,7 @@
 			Name="lua"
 			>
 			<File
-				RelativePath="E:\CvsWork\3rdparty\lua-5.2.3\lua_tinker\lua_tinker.cpp"
+				RelativePath="..\..\..\..\..\..\3rdparty\lua-5.2.3\lua_tinker\lua_tinker.cpp"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
@@ -495,7 +495,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="E:\CvsWork\3rdparty\lua-5.2.3\lua_tinker\lua_tinker.h"
+				RelativePath="..\..\..\..\..\..\3rdparty\lua-5.2.3\lua_tinker\lua_tinker.h"
 				>
 			</File>
 		</Filter>
