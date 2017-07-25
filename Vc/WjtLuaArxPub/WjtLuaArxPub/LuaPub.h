@@ -115,6 +115,12 @@ private:
 	static void PrintArx(const char*);
 	static void PrintArxLn(const char*);
 
+	// --------------------------------------------------------------------------------
+	// Summary: 
+	//   ×Ö·û×ª»»
+	// --------------------------------------------------------------------------------
+	static CString charToTCHAR(const char* str);
+	static CStringA TCHARTochar(const TCHAR* str);
 private:
 	// --------------------------------------------------------------------------------
 	// Summary: 

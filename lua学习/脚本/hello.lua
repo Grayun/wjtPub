@@ -9,7 +9,14 @@ end
 
 pt1 = AcGePoint3d(100, 0, 0)
 pt2 = AcGePoint3d(10, 0, 0)
---PrintArxLn(string.format("是否相等"))
+--PrintArxLn(TCHARTochar(string.format("是否相等"))
 PrintArxLn(pt1:distanceTo(pt2))
-PrintArxLn("相等")
---strPrompt =   pt1:isEqualTo(pt2)
+bL = false
+PrintArxLn(string.format("b1:%d", b1))
+bl = pt1:isEqualTo(pt2, CgeTol)
+PrintArxLn(string.format("b1111:%d", b1))
+PrintArxLn("sefef")
+string.format("b1:%d", b1)
+PrintArxLn(bl)
+PrintArxLn("111")
+--strPrompt =   
